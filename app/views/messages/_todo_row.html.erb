@@ -1,0 +1,7 @@
+<tr>
+	<td><%= messages.body %></td>
+	<td><%= messages.user.name %></td>
+	<td><%= link_to 'Show', messages %></td>
+	<td><%= link_to 'Edit', edit_message_path(messages) %></td>
+	<td><%= link_to 'Destroy', messages, method: :delete, data: { confirm: 'Jesteś pewny?' } %></td>
+</tr>
